@@ -36,3 +36,18 @@ return obj
 # Array Cardio 2
 Going further into array methods
 
+.some; checks the array to see if at least one member meets the search requirements.
+//checking if at least one member is 19 years old//
+const isAdult = people.some(function(person) {
+const currentYear = (new Date()).getFullYear();
+if(currentYear - person.Year >= 19) {
+return true
+}
+})
+
+.every; checks if every single item in the array meets the search requirements.
+//To code this, replace .some with .every in the .some function above.
+
+.find; acts like .filter but in this case returns the first ite t finds only.
+
+.findIndex; Finds the location of an item in the array.
