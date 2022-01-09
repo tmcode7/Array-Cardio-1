@@ -32,3 +32,7 @@ obj[item] = 0      //to check if there is the item in the first place
 obj[item]++        //increment if the item is present
 return obj
 }, {}
+
+# Array Cardio 2
+Going further into array methods
+
