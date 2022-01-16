@@ -73,3 +73,4 @@ if(combination.join('').includes(secretCode)) {      //arr.join converts the arr
 } )
 
 //The if statement instructs the function to do a particular thing when it detects the secret code.
+//I modified the video player to play the video when "play" is typed
