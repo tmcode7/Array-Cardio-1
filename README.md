@@ -1,3 +1,5 @@
+#Lesson Notes
+
 # Array-Cardio-1
 Going over Javascript fundamentals
 
