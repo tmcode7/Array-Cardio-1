@@ -53,3 +53,23 @@ return true
 .find; acts like .filter but in this case returns the first ite t finds only.
 
 .findIndex; Finds the location of an item in the array.
+
+
+
+# Konami Code
+This is something done in Javascript to triger an action when a certain key combination is pressed. It involves creating and array of characters, converting them into a string variable nd assigning it to run with the function. 
+
+Step 1; Create const
+const combination = []  //an empty array to contain the key combinations
+const secretCode = "change"  //the string that activates the function
+
+window.addEventListener('keyup', (e) => {
+combination.push(e.key)  //this adds the pressed key to the end of the array
+combination.splice(-secretCode.length - 1, combination.length - secretCode.length)  //limits the number of characters in the array to the number of characters contained in the secret code
+
+if(combination.join('').includes(secretCode)) {      //arr.join converts the array elements into a string
+
+}
+} )
+
+//The if statement instructs the function to do a particular thing when it detects the secret code.
